@@ -20,7 +20,7 @@ class Home extends Component {
           <h3 class="text-primary fw-bolder mb-5">SHOP BY JEWERLY TYPE</h3>
           <div class="row align-items-center text-center">
             <div class="col">
-              <img src={img9} class="img-fluid d-block mx-auto w-100" alt="model6" />
+              <img src={img9} class="img-fluid d-block mx-auto" alt="model6" />
               <p class="p-3">EARRING</p>
             </div>
             <div class="col">
@@ -43,15 +43,15 @@ class Home extends Component {
         </div>
         <div class="container-fluid">
           <div class="row justify-content-center">
-            <div class="col-6 p-5 bg-primary text-light">
+            <div class="col-lg-6  col-sm-12 p-5 bg-primary text-light">
               <h2>HAND CRAFTED FINE PIECES</h2>
               <h5>we also firmly believed that our customers deserved more choices, straightforward information and legendary service</h5>
               <button type="button" class="btn btn-light">
                 LEAN MORE
               </button>
             </div>
-            <div class="col-6">
-              <img src={img4} class="img-fluid d-block mx-auto" alt="ring-wedding" width={"200%"} />
+            <div class="col-lg-6 col-sm-12 p-0">
+              <img src={img4} class="img-fluid d-block mx-auto" alt="ring-wedding" width={"100%"} />
             </div>
           </div>
         </div>
@@ -59,7 +59,7 @@ class Home extends Component {
           <h3 class="text-primary fw-bolder mb-5">OUR LATES JEWERLY</h3>
           <div class="row align-items-center text-center mb-5">
             <div class="col">
-              <img src={img10} class="img-fluid d-block mx-auto w-100" alt="model7" />
+              <img src={img10} class="img-fluid d-block mx-auto" alt="model7" />
             </div>
             <div class="col">
               <img src={img11} class="img-fluid d-block mx-auto" alt="model8" />
@@ -68,7 +68,7 @@ class Home extends Component {
               <img src={img12} class="img-fluid d-block mx-auto" alt="model9" />
             </div>
           </div>
-          <div class="d-grid gap-2 col-1 mx-auto">
+          <div class="col-sm-12 mx-auto text-center">
             <button class="btn btn-primary" type="button">
               VIEW GALLERY
             </button>
@@ -77,7 +77,7 @@ class Home extends Component {
         <div class="container-fluid p-5">
           <h3 class="text-primary fw-bolder mb-5">CUSTOMER REVIEW</h3>
           <div class="row align-items-center text-left mb-5">
-            <div class="col">
+            <div class="col-lg-3 col-md-6 mb-3">
               <div class="card">
                 <div class="card-body">
                   <i class="bi bi-quote text-left"></i>
@@ -86,7 +86,7 @@ class Home extends Component {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col-lg-3 col-md-6 mb-3">
               <div class="card">
                 <div class="card-body">
                   <i class="bi bi-quote"></i>
@@ -95,7 +95,7 @@ class Home extends Component {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class=" col-lg-3 col-md-6">
               <div class="card">
                 <div class="card-body">
                   <i class="bi bi-quote"></i>
@@ -104,7 +104,7 @@ class Home extends Component {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col-lg-3 col-md-6">
               <div class="card">
                 <div class="card-body">
                   <i class="bi bi-quote"></i>
@@ -128,7 +128,7 @@ class Home extends Component {
               <img src={img9} class="img-fluid d-block mx-auto" alt="model5" />
             </div>
           </div>
-          <div class="d-grid gap-2 col-1 mx-auto">
+          <div class="col-sm-12 mx-auto text-center">
             <button class="btn btn-primary" type="button">
               LEAN MORE
             </button>
@@ -137,7 +137,7 @@ class Home extends Component {
         <div class="container-fluid bg-info pt-5">
           <div class="container ">
             <div class="row justify-content-center shadow">
-              <div class="col-6 ">
+              <div class="col-6 p-0 ">
                 <img src={img4} class="img-fluid d-block mx-auto" alt="ring-wedding" />
               </div>
               <div class="col-6 pt-5 bg-light text-primary text-center">
@@ -150,23 +150,26 @@ class Home extends Component {
             </div>
           </div>
           <div class="row justify-content-start p-5">
-            <div class="col-2">
+            <div class="col-lg-2 col-sm-4">
               <h4>Product</h4>
-              <p>Privacy Policy</p>
-              <p>Term of Servive</p>
-              <p>FAQ</p>
+              <ul class="list-unstyled list-inline">
+                <li class="list-item">Privacy Policy</li>
+                <li class="list-item">Term of Service</li>
+                <li class="list-item">FAQ</li>
+              </ul>
             </div>
-            <div class="col-2">
+            <div class="col-lg-2 col-sm-4">
               <h4>Resume</h4>
-              <p>Documentation</p>
-              <p>Case Studies</p>
+              <ul class="list-unstyled list-inline">
+                <li class="list-item">Documentation</li>
+                <li class="list-item">Case Studies</li>
+              </ul>
             </div>
-            <div class="col-2">
+            <div class="col-lg-2 col-sm-4">
               <h4>Company</h4>
               <ul class="list-unstyled list-inline">
-                <li class="list-item">hallo</li>
-                <li class="list-item">hallo</li>
-                <li class="list-item">hallo</li>
+                <li class="list-item">About Us</li>
+                <li class="list-item">Contact Us</li>
               </ul>
             </div>
           </div>

@@ -6,10 +6,10 @@ class Footer extends Component {
       <div>
         <footer class="bg-info border-top border-secondary pt-3">
           <div class="row align-items-center">
-            <div class="col-md-7 col-lg-8 text-dark ps-5 fw-bolder">
+            <div class="col-lg-8 col-md-6 col-sm-6 text-dark ps-5 fw-bolder">
               <p>@ Blue Diamond Jewerly 2022</p>
             </div>
-            <div class="col-md-4 col-lg-4 ">
+            <div class="col-md-6 col-lg-4 col-sm-6 ">
               <div class="text-center text-md-right">
                 <ul class="list-unstyled list-inline">
                   <li class="list-inline-item pe-5">
