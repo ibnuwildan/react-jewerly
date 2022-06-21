@@ -74,7 +74,7 @@ class Home extends Component {
             </button>
           </div>
         </div>
-        <div class="container-fluid p-5">
+        <div class="container-fluid ps-5">
           <h3 class="text-primary fw-bolder mb-5">CUSTOMER REVIEW</h3>
           <div class="row align-items-center text-left mb-5">
             <div class="col-lg-3 col-md-6 mb-3">
@@ -95,7 +95,7 @@ class Home extends Component {
                 </div>
               </div>
             </div>
-            <div class=" col-lg-3 col-md-6">
+            <div class=" col-lg-3 col-md-6 mb-3">
               <div class="card">
                 <div class="card-body">
                   <i class="bi bi-quote"></i>
@@ -128,7 +128,7 @@ class Home extends Component {
               <img src={img9} class="img-fluid d-block mx-auto" alt="model5" />
             </div>
           </div>
-          <div class="col-sm-12 mx-auto text-center">
+          <div class="col-sm-12 mx-auto text-center mb-3">
             <button class="btn btn-primary" type="button">
               LEAN MORE
             </button>

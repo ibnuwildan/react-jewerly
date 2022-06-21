@@ -13,16 +13,24 @@ class Footer extends Component {
               <div class="text-center text-md-right">
                 <ul class="list-unstyled list-inline">
                   <li class="list-inline-item pe-5">
-                    <i class="bi bi-facebook"></i>
+                    <a class="text-dark" href="#">
+                      <i class="bi bi-facebook"></i>
+                    </a>
                   </li>
                   <li class="list-inline-item pe-5">
-                    <i class="bi bi-instagram"></i>
+                    <a class="text-dark" href="#">
+                      <i class="bi bi-instagram"></i>
+                    </a>
                   </li>
                   <li class="list-inline-item pe-5">
-                    <i class="bi bi-facebook"></i>
+                    <a class="text-dark" href="#">
+                      <i class="bi bi-pinterest"></i>
+                    </a>
                   </li>
                   <li class="list-inline-item pe-5">
-                    <i class="bi bi-instagram"></i>
+                    <a class="text-dark" href="#">
+                      <i class="bi bi-twitter"></i>
+                    </a>
                   </li>
                 </ul>
               </div>
